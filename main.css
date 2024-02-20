@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("Images/bg.jpg");
+}
+
+nav {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+.main-content {
+    padding: 50px;
+    text-align: center;
+}
+.block {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box {
+    width: calc(33.33% - 70px);
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none; /* Removing underline */
+}
+
+.box h3 {
+    font-weight: bold; /* Making heading bold */
+    color: black; /* Setting text color to black */
+}
+
+.box p {
+    color: black; /* Setting text color to black */
+}
+
+.box img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.navy-button {
+    background-color: navy;
+    color: white;
+    border: none;
+    padding: 15px 30px; /* Increased padding for buttons */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 10px; /* Added margin for buttons */
+}
+
+.huge-text {
+    font-size: 50px; /* Increased font size for Jayesh Gupta */
+    margin-bottom: 0.25em
+}
+
+p {margin-bottom: 1em;  margin-top: 0em;}
+
+.box:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Adding shadow on hover */
+}
+
+/* Contact Page */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.left-side,
+.right-side {
+  width: 50%;
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+
+
+
+h2 {
+  margin-top: 0;
+  text-align: left;
+}
+
+.contact-box{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.contact-info {
+  border-radius: 5px;
+  padding: 50px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label, input, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: navy;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+input[type="submit"]:hover {
+  background-color: #001f3f;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+}
+
+.info-item img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
